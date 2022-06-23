@@ -1,36 +1,52 @@
-.homepage{
-    width: 100vw;
-    height: 100vh;
+.homepage {
+  width: 100vw;
+  height: 100vh;
 }
 
-.searchBox{
-   width: 70%;
-   height: 8%;
-    position: absolute;
-    left: 15%;
-    top:3%;
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+.searchDiv {
+  display: flex;
+  position: absolute;
+  left: 10%;
+  top: 3%;
+  width: 80%;
+  height: 8%;
   border-radius: 12px;
-  font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.searchDiv:hover {
+  border: 1px solid blue;
+}
+
+.searchInput {
+  width: 60%;
+
+  font-size: 20px;
   border-style: none;
   outline: none;
 }
-.searchBox:hover{
-    border:1px solid blue;
-}
-.searchLocation{
-    border: 1px solid black;
-    width: 70%;
-    height: 100%;
-    display: flex;
+
+.searchLocation {
+  border: 1px solid black;
+  width: 70%;
+  height: 100%;
+  display: flex;
 }
 
-.searchIcon{
-    width: 10%;
-    height: 100%;
+.locationIcon {
+  width: 10%;
+  height: 100%;
 }
 
-.searchLocationText{
-    text-align: center;
-    border: 1px solid green;
+.searchLocationText {
+  text-align: center;
+  border: 1px solid green;
+}
+
+.searchIcon {
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  right: 2%;
 }
